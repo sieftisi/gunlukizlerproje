@@ -1,0 +1,468 @@
+body {
+    background-color: #121220;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+  margin: 1;
+}
+
+.ust-menu {
+    /*background-color: rgb(133, 123, 123);*/
+    background-color: #121220;
+    height: 4rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+}
+
+.logo {
+    margin-left: 5rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.slogan {
+    color: #a3a4a6;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+}
+
+.ust-cizgi {
+    margin-top: 0rem;
+    opacity: 31%;
+    /*width: 95rem;*/
+}
+
+.profilduzenle{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -270px;
+
+}
+
+.wp {
+    background-color: #62698B;
+    width: 57rem;
+    height: 16rem;
+    margin-left: 19rem;
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #a3a4a6;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wpbtn {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.profilpic {
+    background-color: whitesmoke;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 22rem;
+    margin-top: -5rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a3a4a6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profilpic i {
+    color: #a3a4a6;
+    font-size: 5rem;
+    position: relative;
+    z-index: 1; /* Kamera ikonunu userpic'in üstüne getirme */
+}
+
+.profilpic input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2; /* Userpic'in üstüne gelecek şekilde z-index değeri ayarla */
+}
+
+
+.profilcizgi {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 18.5rem;
+    width: 57rem;
+    opacity: 31%;
+}
+
+.guncelle {
+    position: absolute;
+    margin-left: 34rem;
+    margin-top: -3rem;
+}
+
+.adsoyad {
+    width: 200px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.kullaniciadi {
+    width: 200px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.sifre {
+    width: 200px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.instagramurl {
+    width: 400px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-left: 1rem;
+}
+
+.twitterurl {
+    width: 400px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-left: 2.20rem;
+}
+
+.facebookurl {
+    width: 400px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-left: 1.1rem;
+}
+
+.tiktokurl {
+    width: 400px;
+    height: 35px;
+    background-color: #121220;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-left: 2.30rem;
+}
+
+.yaziinstagram {
+    margin-left: 20rem;
+    color: whitesmoke;
+}
+
+.yazitwitter {
+    margin-left: 20rem;
+    color: whitesmoke
+}
+
+.yazifacebook {
+
+    margin-left: 20rem;
+    color: whitesmoke
+}
+
+.yazitiktok {
+    margin-left: 20rem;
+    color: whitesmoke
+}
+
+.guncellebtn {
+    width: 150px;
+    height: 45px;
+    background-color: #62698B;
+    border: 4px solid #62698B;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-left: 64rem;
+}
+
+i {
+    font-size: 60px;
+}
+
+.ust-menu {
+    /*background-color: rgb(133, 123, 123);*/
+    background-color: #121220;
+    height: 4rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+  }
+  
+  .logo {
+    margin-left: 5rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .slogan {
+    color: #a3a4a6;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+  }
+  
+  .arama {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 14em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #5c6370;
+    border-radius: 0.8em;
+    overflow: hidden;
+    margin-left: 37rem;
+    margin-top: -3.2rem;
+  }
+  
+  .aramadiv {
+    display: flex;
+    justify-content: center;
+    margin-left: -40rem;
+  }
+  
+  .search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+  }
+  
+  .inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+  
+  ::placeholder {
+    color: #abb2bf;
+  }
+  
+  /*.btn1 {
+  position: absolute;
+    border: 1px solid black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    transform: all 2s esase;
+    transition-duration: .3s;
+    margin-left: 57rem;
+    margin-top: -2.5rem;
+  }
+  
+  .btn2 {
+  position: absolute;
+    border: 1px solid black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    transform: all 2s esase;
+    transition-duration: .3s;
+    margin-left: 67rem;
+    margin-top: -2.5rem;
+  }
+  
+  .btn1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 1px rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  
+  .btn2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 1px rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  
+  .btn1:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 1px;
+  }
+  
+  .btn2:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 1px;
+  }*/
+  
+  .btn1 {
+    position: absolute;
+    --color: #a3a4a6;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2em;
+    line-height: 1em;
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 1;
+    color: #000;
+    border: 3px solid var(--color);
+    border-radius: 15px;
+    margin-left: 56rem;
+    margin-top: -2.1rem;
+  }
+  
+  .btn1:before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .btn1:hover {
+    color: white;
+  }
+  
+  .btn1:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .btn1:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .btn2 {
+    position: absolute;
+    --color: #a3a4a6;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2em;
+    line-height: 1em;
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 1;
+    color: #000;
+    border: 3px solid var(--color);
+    border-radius: 15px;
+    margin-left: 65rem;
+    margin-top: -2.1rem;
+  }
+  
+  .btn2:before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .btn2:hover {
+    color: white;
+  }
+  
+  .btn2:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .btn2:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .butonlar {
+    float: right;
+    padding-right: 96rem;
+    margin-top: -1rem;
+  }
+  
+  /*.header-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff; 
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+  }
+  */
+  
+  .merhaba {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #d9d9d9;
+    margin-top: -2.8rem;
+    float: right;
+    padding-right: 9rem;
+  }
+  
+  .userpic {
+    height: 3rem;
+    width: 3rem;
+    margin-top: -4.8rem;
+    float: right;
+    border-radius: 50px;
+    border: 50px;
+    padding: 1rem;
+  }
+  
+  .ust-cizgi {
+    margin-top: -2px;
+    opacity: 31%;
+    /*width: 95rem;*/
+  }

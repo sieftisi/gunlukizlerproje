@@ -1,0 +1,176 @@
+body {
+  background-color: #121220;
+  height: 100vh;
+  margin: 1;
+}
+
+.ust-menu {
+  /*background-color: rgb(133, 123, 123);*/
+  background-color: #121220;
+  height: 4rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+.logo {
+  margin-left: 5rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.slogan {
+  color: #a3a4a6;
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  margin-top: 1.3rem;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+.ust-cizgi {
+  margin-top: -2px;
+  opacity: 31%;
+  /*width: 95rem;*/
+}
+
+.baslik {
+  position: absolute;
+  margin-left: 71rem;
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.sol-menu {
+  width: 15rem;
+}
+
+.sol-cizgi {
+  opacity: 31%;
+  height: 45rem;
+  margin-left: 15rem;
+}
+
+.kategori {
+  position: absolute;
+  top: 6rem;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 15rem;
+  margin-left: -1rem;
+}
+
+.kategori a {
+  font-size: 1.5rem;
+  color: #d9d9d9;
+  text-decoration: none;
+  line-height: 4.6;
+  margin-left: 4rem;
+}
+
+.kategori a i {
+  margin-right: 15px;
+}
+
+.guncelleme {
+  width: 20rem;
+  margin-left: 50%;
+  margin-top: -40rem;
+}
+
+.guncelleme .kullanici {
+  margin-top: 29px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+  font-size: 26px;
+  color: rgb(245, 245, 245);
+  padding: 6px;
+  background-color: transparent;
+  font-family: Quicksand;
+}
+
+.guncelleme .buton {
+  margin-top: 46px;
+  width: 210px;
+  height: 70px;
+  font-size: 27px;
+  background-color: whitesmoke;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: Quicksand;
+}
+
+.guncelleme .buton:hover {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.guncelleme .kayitform a {
+  color: whitesmoke;
+  font-size: 19px;
+}
+
+.guncelleme .kayitform p {
+  margin-top: 25px;
+  font-size: 19px;
+}
+
+span {
+  color: white;
+}
+
+.listetablo {
+  background-color: grey;
+  position: absolute;
+  margin-left: 0rem;
+  margin-top: 9rem;
+}
+
+.butonlar {
+  font-family: inherit;
+  border: none;
+  outline: 1px dotted rgb(37, 37, 37);
+  outline-offset: -4px;
+  background: hsl(0deg 0% 75%);
+  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 30px;
+}
+
+.butonlar:active {
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}
+
+.postguncelle {
+  width: 22rem;
+  position: absolute;
+  margin-top: -35rem;
+  margin-left: 45rem;
+}
+
+.postguncelle .kullanici {
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+  font-size: 26px;
+  color: rgb(245, 245, 245);
+  padding: 6px;
+  background-color: transparent;
+  font-family: Quicksand;
+  width: 20rem;
+}
+
+.mesajtablo {
+  background-color: grey;
+  position: relative;
+  margin-left: 15.1rem;
+  margin-top: -42rem;
+}

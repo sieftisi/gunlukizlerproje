@@ -1,0 +1,195 @@
+body {
+    background-color: #121220;
+  }
+  
+.ust-menu {
+    /*background-color: rgb(133, 123, 123);*/
+    position: relative;
+    height: 4rem;
+  }
+  
+.logo {
+    margin-left: 5rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  
+.slogan {
+    color: #a3a4a6;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+  }
+
+.ust-cizgi {
+    margin-top: 1rem;
+    opacity: 31%;
+    /*width: 95rem;*/
+    }
+
+.baslikyazi {
+    position: absolute;
+    margin-top: -10rem;
+    margin-left: -9.75rem;
+    color: whitesmoke;
+}
+
+.etkinlik {
+    width: 37.5rem;
+    height: 6.25rem;
+    padding: 15.625rem;
+    margin: 1.875rem 6.25rem 12.50rem 12.50rem;
+    border: 0.25rem solid #62698B;
+    border-radius: 2.5rem;
+}
+
+.baslikborder {
+    position: absolute;
+    background-color: #62698B;
+    border-radius: 0.5rem;
+    border: 4px solid #62698B;
+    margin-left: -10rem;
+    margin-top: -9.5rem;
+    width: 22.5rem;
+    height: 2rem;
+}
+
+.icerikborder {
+    position: absolute;
+    background-color: #62698B;
+    border-radius: 0.5rem;
+    border: 4px solid #62698B;
+    margin-top: -4rem;
+    margin-left: -9.8rem;
+    color: whitesmoke;
+    width: 35rem;
+    height: 12rem;
+}
+
+.icerikyazi {
+    position: absolute;
+    border-radius: 0.5rem;
+    margin-top: -5rem;
+    margin-left: -9.7rem;
+    color: whitesmoke;
+}
+
+.konum {
+    position: absolute;
+    margin-top: 11rem;
+    color: whitesmoke;
+    margin-left: -9.55rem;
+}
+
+.konumborder {
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: -5.75rem;
+    background-color: #121220;
+    border: 2px solid #62698B;
+    border-radius: 0.5rem;
+    width: 18.2rem;
+    height: 0.8rem;
+    color: whitesmoke;
+}
+
+.tarih {
+    position: absolute;
+    margin-top: 12rem;
+    color: whitesmoke;
+    margin-left: -9.55rem;
+}
+
+.tarihborder {
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: -5.75rem;
+    background-color: #121220;
+    border: 2px solid #62698B;
+    border-radius: 0.5rem;
+    width: 18.2rem;
+    height: 0.8rem;
+    color: whitesmoke;
+}
+
+.saat {
+    position: absolute;
+    margin-top: 13rem;
+    color: whitesmoke;
+    margin-left: -9.55rem;
+}
+
+.saatborder {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: -5.75rem;
+    background-color: #121220;
+    border: 2px solid #62698B;
+    border-radius: 0.5rem;
+    width: 18.2rem;
+    height: 0.8rem;
+    color: whitesmoke;
+}
+
+.fotograf {
+    position: absolute;
+    margin-top: -9.6rem;
+    color: whitesmoke;
+    margin-left: 33.2rem;
+}
+
+.fotografborder {
+    position: absolute;
+    margin-top: -8.7rem;
+    margin-left: 33rem;
+    background-color: #62698B;
+    border: 4px solid #62698B;
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 12.25rem;
+    overflow: hidden;
+}
+
+/* Yeni stilleri ekleyin */
+.fotografborder input[type="file"] {
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.fotografborder::before {
+    content: "+";
+    font-size: 8rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.paylasborder {
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: 8rem;
+    background-color: #62698B;
+    border: 4px solid #62698B;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3.25rem;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.upload {
+    color: transparent;
+}

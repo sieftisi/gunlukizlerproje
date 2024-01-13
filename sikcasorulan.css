@@ -1,0 +1,81 @@
+body {
+    background-color: #121220;
+  }
+  
+  .ust-menu {
+    /*background-color: rgb(133, 123, 123);*/
+    position: relative;
+    height: 4rem;
+  }
+
+  
+  .logo {
+    margin-left: 5rem;
+    height: 4rem;
+    width: 4rem;
+  }
+  
+  .slogan {
+    color: #a3a4a6;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+  }
+  .sorular {
+  position: absolute;
+  margin-top: 4rem;
+  height: 50rem;
+  width: 60rem;
+  margin-left: 18rem;
+  }
+  .area {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  /* body {
+    background: #f2f2f2;
+    font-family: "Helvetica Neue", "HelveticaNeueLT Std", "Segoe UI",
+      "Nimbus Sans L", "Liberation Sans", "Open Sans", FreeSans, Helvetica, Arial,
+      sans-serif;
+  } */
+  .help {
+    font-weight: bolder;
+    float: left;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background: #d5d7d6;
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .box {
+    transition: all 0.5s;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 3rem;
+    height: 136px;
+    background: #62698A;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+  }
+  h2 {
+    color: #000000;
+    margin-top: 40px;
+    line-height: 0;
+  }
+  p {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+  }
+  .box:hover {
+    background: #7e78cc;
+  }

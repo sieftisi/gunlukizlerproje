@@ -1,0 +1,74 @@
+body {
+  background-color: #121220;
+}
+
+.ust-menu {
+  /*background-color: rgb(133, 123, 123);*/
+  position: relative;
+  height: 4rem;
+}
+
+.ust-cizgi {
+  opacity: 31%;
+}
+
+.logo {
+  margin-left: 5rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.slogan {
+  color: #a3a4a6;
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  margin-top: 1.3rem;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+.oneriform {
+  background-color: #63698b;
+  margin-left: 13rem;
+  margin-top: 4rem;
+  height: 45rem;
+  width: 70rem;
+  position: relative;
+  border-radius: 4rem;
+}
+
+.iosf {
+  color: #ffffff;
+  position: absolute;
+  margin-left: 14rem;
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.msjlar {
+  color: #ffffff;
+  position: absolute;
+  margin-left: 8rem;
+  margin-top: 10rem;
+  font-size: 1.7rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.txtbox {
+  position: absolute;
+  margin-left: 25rem;
+  margin-top: 10rem
+}
+
+.gonder {
+  color: #ffffff;
+  margin-left: 32rem;
+  margin-top: -7rem;
+  border-radius: 2rem;
+  height: 5rem;
+  width: 10rem;
+  font-size: 1.7rem;
+  font-family: 'Playfair Display', serif;
+  background-color: #121220;
+}

@@ -1,0 +1,113 @@
+body {
+  background-color: #121220;
+}
+
+.ust-menu {
+  position: relative;
+  height: 4rem;
+}
+
+.logo {
+  margin-left: 5rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.slogan {
+  color: #a3a4a6;
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  margin-top: 1.3rem;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+.ust-cizgi {
+  margin-top: 1rem;
+  opacity: 31%;
+}
+
+.hakkinda {
+  max-width: 56rem;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  position: absolute;
+}
+
+.baslik {
+  font-size: 40px;
+  color: white;
+}
+
+.yazi {
+  font-size: 25px;
+  color: white;
+  opacity: 60%;
+}
+
+#ekle {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 74rem;
+  width: 222px;
+  height: 152px;
+  border: 3px solid #a3a4a6;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #62698B;
+  font-size: 1.5em;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
+
+#ekle:hover {
+  background: whitesmoke;
+  color: #121220;
+  font-size: 1.3em;
+  border: 3px solid #62698B;
+}
+
+.userpicpost {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
+}
+
+.etk-div {
+  margin-bottom: -17rem;
+  margin-top: 20rem;
+  margin-left: 4rem;
+  background-color: #62698B;
+  border-radius: 30px;
+  max-width: 300px;
+  overflow: hidden;
+  font-family: 'Lexend Deca', sans-serif;
+  display: inline-block;
+  width: 18rem;
+  height: 14rem;
+}
+
+.etkfotograf {
+  width: 4rem;
+  height: 4rem;
+}
+
+.devamibtn {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 48%;
+}
+
+.devamibtn:hover {
+  color: black;
+}

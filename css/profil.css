@@ -1,0 +1,304 @@
+body {
+    background-color: #121220;
+}
+
+.ust-menu {
+    /*background-color: rgb(133, 123, 123);*/
+    position: relative;
+    height: 4rem;
+}
+
+.logo {
+    margin-left: 5rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.slogan {
+    color: #a3a4a6;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+}
+
+.ust-cizgi {
+    margin-top: 0rem;
+    opacity: 31%;
+    /*width: 95rem;*/
+}
+
+.wp {
+    background-color: #62698B;
+    width: 57rem;
+    height: 16rem;
+    margin-left: 34rem;
+    margin-top: 2rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #a3a4a6;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp img {
+    width: 61rem;
+    height: 16rem;
+    border-radius: 38px;
+}
+
+.profilpic {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 35rem;
+    margin-top: -5rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #a3a4a6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilpic img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 95px;
+}
+
+.kadi {
+    position: absolute;
+    color: white;
+    margin-left: 47rem;
+    margin-top: 4rem;
+    font-size: 18px;
+}
+
+.adsoyadtxt {
+    position: absolute;
+    color: white;
+    margin-left: 47rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+#etkinlik {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 64rem;
+    width: 150px;
+    height: 60px;
+    border: 3px solid #a3a4a6;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #62698B;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+#etkinlik:hover {
+    background: whitesmoke;
+    color: #121220;
+    font-size: 1.3em;
+    border: 3px solid #62698B;
+}
+
+#duzenle {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 64rem;
+    width: 150px;
+    height: 60px;
+    border: 3px solid #a3a4a6;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #62698B;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+#duzenle:hover {
+    background: whitesmoke;
+    color: #121220;
+    font-size: 1.3em;
+    border: 3px solid #62698B;
+}
+
+#cikis {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 64rem;
+    width: 150px;
+    height: 60px;
+    border: 3px solid #a3a4a6;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #62698B;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    color: #ad0000;
+}
+
+#cikis:hover {
+    background: whitesmoke;
+    color: #121220;
+    font-size: 1.3em;
+    border: 3px solid #62698B;
+}
+
+.iconlar {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-left: 35.5rem;
+    margin-top: 7.5rem;
+}
+
+.iconlar i {
+    padding-right: 1rem;
+}
+
+.profilcizgi {
+    position: relative;
+    margin-top: 11rem;
+    margin-left: 34rem;
+    width: 57rem;
+    opacity: 31%;
+}
+
+.postbaslik {
+    position: absolute;
+    color: white;
+    margin-top: 1.3rem;
+    margin-left: 62rem;
+    font-size: 25px;
+}
+
+.postveri {
+    position: absolute;
+    color: white;
+    margin-top: 4rem;
+    margin-left: 63rem;
+}
+
+.post {
+    /*position: absolute;*/
+    margin-left: 10rem;
+    margin-top: 2rem;
+    background-color: #62698B;
+    border-radius: 30px;
+    display: block ruby; /* İçeriğe göre genişleyen bir blok olmasını sağlar */
+    max-width: 770px; /* İstenen maksimum genişlik */
+    overflow: hidden;
+  }
+  
+  .devamibtn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100%;
+  }
+  
+  .devamibtn:hover {
+    color: red;
+  }
+  
+  .baslik {
+    position: relative;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    display: block ruby;
+  }
+  
+  .userpicpost {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+  }
+  
+  .adsoyad {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    font-size: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  
+  .kullanicipost {
+    background-color: #ffffff69;
+    border-radius: 30px;
+    width: 20rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .iconlar a{
+    text-decoration: none;
+    color: white;
+  }
+
+  
+@media (max-width: 1600px) {
+    .wp {
+        margin-left: 18rem;
+    }
+    
+    .profilpic {
+        margin-left: 19rem;
+    }
+    
+    .kadi {
+        margin-left: 31rem;
+    }
+    
+    .adsoyadtxt {
+        margin-left: 31rem;
+    }
+
+    .postbaslik {
+        margin-left: 46rem;
+    }
+
+    .postveri {
+        margin-left: 47rem;
+    }
+
+    .post {
+        margin-left: 6rem;
+    }
+
+    #etkinlik {
+        margin-left: 65rem;
+    }
+
+    .iconlar {
+        margin-left: 19.5rem;
+    }
+    
+    .profilcizgi {
+        margin-left: 18rem;
+    }
+}
+

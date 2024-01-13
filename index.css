@@ -1,0 +1,739 @@
+body {
+  background-color: #121220;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 1;
+}
+
+.ust-menu {
+  /*background-color: rgb(133, 123, 123);*/
+  background-color: #121220;
+  height: 4rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+.logo {
+  margin-left: 5rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.slogan {
+  color: #a3a4a6;
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  margin-top: 1.3rem;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+.arama {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-width: 14em;
+  width: fit-content;
+  height: fit-content;
+  background-color: #5c6370;
+  border-radius: 0.8em;
+  overflow: hidden;
+  margin-left: 37rem;
+  margin-top: -3.2rem;
+}
+
+.aramadiv {
+  display: flex;
+  justify-content: center;
+  margin-left: -40rem;
+}
+
+.search_icon {
+  height: 1em;
+  padding: 0 0.5em 0 0.8em;
+  fill: #abb2bf;
+}
+
+.inputBox {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+  width: 100%;
+  border: 0;
+  padding: 0.5em 1.5em 0.5em 0;
+  font-size: 1em;
+}
+
+::placeholder {
+  color: #abb2bf;
+}
+
+/*.btn1 {
+position: absolute;
+  border: 1px solid black;
+  padding: 12px 30px 12px 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-weight: bolder;
+  font-size: 15px;
+  box-shadow: 0px 0px 1px;
+  transform: all 2s esase;
+  transition-duration: .3s;
+  margin-left: 57rem;
+  margin-top: -2.5rem;
+}
+
+.btn2 {
+position: absolute;
+  border: 1px solid black;
+  padding: 12px 30px 12px 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-weight: bolder;
+  font-size: 15px;
+  box-shadow: 0px 0px 1px;
+  transform: all 2s esase;
+  transition-duration: .3s;
+  margin-left: 67rem;
+  margin-top: -2.5rem;
+}
+
+.btn1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 7px 1px rgb(0, 0, 0);
+  border: 1px solid black;
+}
+
+.btn2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 7px 1px rgb(0, 0, 0);
+  border: 1px solid black;
+}
+
+.btn1:active {
+  transform: translateY(10px);
+  box-shadow: 0px 0px 1px;
+}
+
+.btn2:active {
+  transform: translateY(10px);
+  box-shadow: 0px 0px 1px;
+}*/
+
+.btn1 {
+  position: absolute;
+  --color: #a3a4a6;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 17px;
+  z-index: 1;
+  color: #000;
+  border: 3px solid var(--color);
+  border-radius: 15px;
+  margin-left: 56rem;
+  margin-top: -2.1rem;
+}
+
+.btn1:before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.btn1:hover {
+  color: white;
+}
+
+.btn1:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+.btn1:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+.btn2 {
+  position: absolute;
+  --color: #a3a4a6;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2em;
+  line-height: 1em;
+  overflow: hidden;
+  font-size: 17px;
+  z-index: 1;
+  color: #000;
+  border: 3px solid var(--color);
+  border-radius: 15px;
+  margin-left: 65rem;
+  margin-top: -2.1rem;
+}
+
+.btn2:before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.btn2:hover {
+  color: white;
+}
+
+.btn2:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+.btn2:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+.butonlar {
+  float: right;
+  padding-right: 96rem;
+  margin-top: -1rem;
+}
+
+/*.header-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff; 
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;
+}
+*/
+
+.merhaba {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #d9d9d9;
+  margin-top: -2.8rem;
+  float: right;
+  padding-right: 5rem;
+}
+
+.userpic {
+  height: 3rem;
+  width: 3rem;
+  margin-top: -4.8rem;
+  float: right;
+  border-radius: 50px;
+  border: 50px;
+  padding: 1rem;
+}
+
+.ust-cizgi {
+  margin-top: -2px;
+  opacity: 31%;
+  /*width: 95rem;*/
+}
+
+.sol-menu {
+  width: 15rem;
+  position: fixed;
+  margin-top: 3rem;
+  margin-left: -80rem;
+}
+
+.sol-cizgi {
+  opacity: 31%;
+  width: 0rem;
+  height: 200rem;
+  margin-left: 15rem;
+}
+
+.sol-cizgi2 {
+  position: absolute;
+  opacity: 31%;
+  width: 14rem;
+  margin-top: -2rem;
+  margin-left: 2rem;
+}
+
+.kategori {
+  position: absolute;
+  top: 6rem;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 15rem;
+}
+
+.kategori a {
+  font-size: 1.1rem;
+  color: #d9d9d9;
+  text-decoration: none;
+  line-height: 1.6;
+  margin-left: 4rem;
+}
+
+.kategori a i {
+  margin-right: 15px;
+}
+
+
+.anasayfakategori {
+  font-family: 'Lexend Deca', sans-serif;
+  position: absolute;
+  top: 3rem;
+}
+
+.anasayfakategori a {
+  text-decoration: none;
+  color: #d9d9d9;
+  margin-left: 4rem;
+
+}
+
+.anasayfakategori a i {
+  margin-right: 15px
+}
+
+
+.sol-ust-menu {
+  position: absolute;
+  opacity: 31%;
+  width: 14rem;
+}
+
+.dikdortgen {
+  width: 180px;
+  height: 300px;
+  background-color: #62698B;
+  border-radius: 15px;
+  margin-left: 25px;
+  margin-top: 38px;
+}
+
+.destek {
+  position: fixed;
+  margin-left: -30px;
+  bottom: 0;
+  padding-bottom: 2rem;
+}
+
+#mesaj {
+  font-size: 15px;
+}
+
+.sag-menu {
+  position: fixed;
+  width: 23rem;
+  height: 50rem;
+  margin-left: 74rem;
+  margin-top: 0;
+}
+
+.sag-cizgi {
+  position: absolute;
+  opacity: 31%;
+  width: 0rem;
+  height: 200rem;
+  margin-left: 0rem;
+  margin-top: 3.5rem;
+}
+
+.postekle {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 60px;
+  width: 243px;
+  height: 70px;
+  border: 3px solid #a3a4a6;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #a3a4a6;
+  font-size: 20px;
+  font-weight: 550;
+  color: black;
+}
+
+.postekle:hover {
+  background: whitesmoke;
+  color: #121220;
+  font-size: 1.3em;
+  border: 3px solid #62698B;
+}
+
+.sag-ust-menu {
+  position: relative;
+  opacity: 31%;
+  width: 300px;
+  margin-top: 13rem;
+}
+
+.populer {
+  width: 291px;
+  height: 283px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+
+}
+
+.takip {
+  width: 291px;
+  height: 155px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.etkinlik {
+  position: absolute;
+  width: 924px;
+  height: 150px;
+  margin-left: -108px;
+  margin-top: 57px;
+}
+
+.etkinlik-cizgi {
+  position: relative;
+  width: 922px;
+  opacity: 31%;
+  margin-top: 151px;
+}
+
+.etkinlik1 {
+  width: 148px;
+  height: 115px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-top: -141px;
+  position: absolute;
+}
+
+.etkinlik2 {
+  width: 148px;
+  height: 115px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 180px;
+  margin-top: -141px;
+  position: absolute;
+}
+
+.etkinlik3 {
+  width: 148px;
+  height: 115px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 340px;
+  margin-top: -141px;
+  position: absolute;
+}
+
+.etkinlik4 {
+  width: 148px;
+  height: 115px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 500px;
+  margin-top: -141px;
+  position: absolute;
+}
+
+.etkinlik5 {
+  width: 148px;
+  height: 115px;
+  background-color: #62698b48;
+  border-radius: 40px;
+  margin-left: 660px;
+  margin-top: -141px;
+  position: absolute;
+}
+
+.etkinlikbtn {
+  position: absolute;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 5rem;
+  color: white;
+  margin-left: 53rem;
+  margin-top: -9rem;
+}
+
+.ortadiv {
+  position: absolute;
+  width: 835px;
+  height: 430px;
+  /*background-color: #62698b7e;*/
+  border-radius: 20px;
+  margin-left: -7rem;
+  margin-top: 15rem;
+}
+
+.post {
+  /*position: absolute;*/
+  margin-left: 2rem;
+  margin-top: 2rem;
+  background-color: #62698B;
+  border-radius: 30px;
+   /* İçeriğe göre genişleyen bir blok olmasını sağlar */
+  max-width: 770px; /* İstenen maksimum genişlik */
+  overflow: hidden;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.devamibtn {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 48%;
+}
+
+.devamibtn:hover {
+  color: black;
+}
+
+.baslik {
+  position: relative;
+  margin-left: 4rem;
+  margin-top: 1.5rem;
+}
+
+.userpicpost {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
+}
+
+.adsoyad {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  font-size: 30px;
+}
+
+.adsoyad2 {
+  position: absolute;
+  margin-top: -3.5rem;
+  margin-left: 7.5rem;
+  font-size: 30px;
+}
+
+.adsoyad2 a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 25px;
+}
+
+.adsoyad a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 25px;
+}
+
+.postkategori {
+  position: relative;
+  right: 2rem;
+  top: -5rem;
+  font-size: 27px;
+  text-align: right;
+  display: block;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.kullanicipost {
+  background-color: #ffffff69;
+  border-radius: 30px;
+  width: 20rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* postlar.css */
+
+/* Tablo stilini düzenle */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.postbaslik {
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Post metin hücresini düzenle */
+.postyazi {
+  padding: 40px;
+  font-size: 17px;
+  text-align: left;
+  color: #000000f0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Post resim hücresini düzenle */
+.postfoto {
+  text-align: center;
+}
+
+/* Resim stilini düzenle */
+.postfoto img {
+  max-width: 100%;
+  max-height: 370px; /* Maksimum yükseklik belirtin */
+  height: auto;
+  display: block; /* Center the image horizontally within its container */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+/* Küçük önizleme resim stilini düzenle */
+.postfoto a img.onizleme {
+  max-width: 658px; /* Önizleme resmi genişliği */
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+}
+
+
+
+
+
+#kayitbg {
+  background: url(pic/gunluk.svg);
+}
+
+.kayit {
+  background-color: #0B0019;
+  height: 26rem;
+  width: 36rem;
+  margin-top: 6rem;
+}
+
+.kayit p {
+  color: white;
+}
+
+.kayitol {
+  background: url(pic/gunluk.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.kayitol {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.kayitol .kayitform {
+  background: #0b0019dc;
+  min-width: 874px;
+  min-height: 450px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kayitol h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.kayitol .kullanici {
+  margin-top: 29px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+  font-size: 26px;
+  color: rgb(245, 245, 245);
+  padding: 6px;
+  background-color: transparent;
+  font-family: Quicksand;
+}
+
+.kayitol .buton {
+  margin-top: 46px;
+  width: 210px;
+  height: 70px;
+  font-size: 27px;
+  background-color: whitesmoke;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: Quicksand;
+}
+
+.kayitol .buton:hover {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.kayitol .kayitform a {
+  color: whitesmoke;
+  font-size: 19px;
+}
+
+.kayitol .kayitform p {
+  margin-top: 25px;
+  font-size: 19px;
+}
+
+.etktarih {
+  position: relative;
+  right: 2rem;
+  top: -5rem;
+  font-size: 27px;
+  text-align: right;
+  display: block;
+  font-family: 'Lexend Deca', sans-serif;
+  float: right;
+  width: 300px;
+  height: 10px
+}
+.etkbaslik{
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+}
